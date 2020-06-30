@@ -45,7 +45,7 @@
       <p>Drop us your food favourite photos to receive a 10% discount at your next restaurant.</p>
       <p class="lead">
       <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap" >Upload</button>
-
+<form action="/data" method="POST">
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -56,14 +56,13 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/data" method="POST">
           <div class="form-group">
             <label for="restaurant-name" class="col-form-label">Restaurant Name:</label>
-            <input type="text" class="form-control" id="restaurant-name">
+            <input type="text" class="form-control" id="restaurant-name" name="restaurant[name]">
           </div>
           <div class="form-group">
           <label for="location-name" class="col-form-label">Location:</label>
-          <input type="text" class="form-control" id="location-name">
+          <input type="text" class="form-control" id="location-name" name="restaurant[location]">
         </div>
         <div class="form-group">
         <label for="rating" class="col-form-label">Restaurant Rating:</label>
