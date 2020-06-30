@@ -1,15 +1,72 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+
+/* Home Page
+Main heading */
+ h1{
+    font-size:75px;
+    font-family: 'Rock Salt', cursive; 
+ }
+
+/* 'Welcome tag' */
+ .lead{
+    color:#ff6666
+ }
+
+ /* Both upload and search button */
+ .btn {
+    background-color:#ff6666;
+    border-color:#ff6666;
+    color: white;
+   
+ }
+
+ .btn:hover {
+     color:#ff6666;
+     background-color: white;
+ }
+
+ .btn:active{
+     background-color: white;
+     border: none
+ }
+
+
+  /* Form Heading */
+  h5{
+    font-size:75px;
+    font-family: 'Rock Salt', cursive; 
+    color:#ff6666;
+ }
+
+ select {
+    border: 1;
+    border-color: lightgray;
+    color: black;
+    background: transparent;
+   
+  }
+
+  .navbar {
+      background-color: white;
+      font-color: white;
+      color:black
+  }
+
+  .container{
+      margin-top:50px;
+     
+  }
+
+  h2 {
+    font-size:75px;
+    font-family: 'Rock Salt', cursive; 
+    text-align: center;
+    color:#ff6666; 
+    margin-bottom: 75px
+    
+  }
+
+  .card-footer {
+    background-color: white;
+    border-color:none;
+    margin-top: 160px
+  }
